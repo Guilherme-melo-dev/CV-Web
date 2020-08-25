@@ -1,0 +1,63 @@
+.container-navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #fff;
+}
+
+#links {
+    margin: 0 4%;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+}
+
+li:nth-child(1) {
+    font-size: 40px;
+    font-family: Cookie;
+}
+
+li {
+    font-size: 20px;
+    padding: 0 10px;
+    list-style:none;
+    font-family: Alata;
+}
+
+#button-nav {
+    display: flex;
+    align-items: center;
+}
+#btnAcceNav {
+    background: transparent;
+    outline: none;
+    font-size: 20px;
+    border: transparent;
+    padding: 6px 25px;
+    margin: 0 10px;
+    color: #000;
+}
+#btnCadNav {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+    width: 170px;
+    background: var(--background-button);
+    box-shadow: 8px 8px 10px #514F4F;
+    outline: none;
+    border: transparent;
+    padding: 6px 25px;
+    margin: 0 10px;
+}
+#arrowBtnCad {
+    display: flex;
+    align-items: center;
+    margin: 0 5px;
+}
